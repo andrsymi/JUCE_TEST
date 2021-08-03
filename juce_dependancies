@@ -1,0 +1,22 @@
+#!/bin/bash 
+
+# to install run "sudo bash juce_dependancies" in terminal
+
+sudo -n true
+test $? -eq 0 || exit 1 "you should have sudo priveledge to run this script"
+
+sudo apt-get -y update
+sudo apt-get -y install g++ 
+sudo apt-get -y install libfreetype6-dev 
+sudo apt-get -y install libx11-dev 
+sudo apt-get -y install libxinerama-dev 
+sudo apt-get -y install libxrandr-dev 
+sudo apt-get -y install libxcursor-dev 
+sudo apt-get -y install mesa-common-dev 
+sudo apt-get -y install libasound2-dev 
+sudo apt-get -y install freeglut3-dev 
+sudo apt-get -y install libxcomposite-dev
+sudo apt-get -y install libcurl4-gnutls-dev
+sudo apt-get -y install ladspa-sdk
+
+sudo apt-get -y install libwebkit2gtk-4.0-dev
