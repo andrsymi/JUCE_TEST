@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="FDumIO" name="SimpleApp" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" cppLanguageStandard="17">
   <MAINGROUP id="VGKmNy" name="SimpleApp">
     <GROUP id="{EC330E43-1BFC-B2A7-AC09-71759C1DF1A2}" name="Source">
       <FILE id="ng8Prx" name="PluginProcessor.cpp" compile="1" resource="0"
